@@ -15,72 +15,30 @@
 		</block>
 		<block id="2" name="q2">
 			<tag>Machine2</tag>
-			<x>887.0</x>
-			<y>419.0</y>
+			<x>712.0</x>
+			<y>410.0</y>
 		</block>
 		<!--The list of transitions.-->
 		<transition>
 			<from>1</from>
 			<to>1</to>
-			<read>x</read>
-			<write>x</write>
+			<read>0</read>
+			<write>0</write>
 			<move>R</move>
 		</transition>
 		<transition>
 			<from>1</from>
-			<to>2</to>
-			<read>0</read>
-			<write>0</write>
-			<move>S</move>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
+			<to>1</to>
 			<read>1</read>
 			<write>1</write>
-			<move>S</move>
+			<move>R</move>
 		</transition>
 		<transition>
 			<from>1</from>
-			<to>2</to>
+			<to>1</to>
 			<read>2</read>
 			<write>2</write>
-			<move>S</move>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>#</read>
-			<write>#</write>
-			<move>S</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>1</read>
-			<write>1</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>0</read>
-			<write>0</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>2</read>
-			<write>2</write>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>#</read>
-			<write>#</write>
-			<move>L</move>
+			<move>R</move>
 		</transition>
 		<transition>
 			<from>0</from>
@@ -88,6 +46,41 @@
 			<read>$</read>
 			<write>$</write>
 			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>1</read>
+			<write>1</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>0</read>
+			<write>0</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>2</read>
+			<write>2</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>#</read>
+			<write>#</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>x</read>
+			<write>x</write>
+			<move>L</move>
 		</transition>
 		<!--The list of automata-->
 		<Machine0/>
