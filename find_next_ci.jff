@@ -21,13 +21,6 @@
 		<!--The list of transitions.-->
 		<transition>
 			<from>0</from>
-			<to>2</to>
-			<read/>
-			<write/>
-			<move>L</move>
-		</transition>
-		<transition>
-			<from>0</from>
 			<to>0</to>
 			<read>#</read>
 			<write>#</write>
@@ -74,6 +67,13 @@
 			<read>#</read>
 			<write>#</write>
 			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read/>
+			<write/>
+			<move>L</move>
 		</transition>
 		<transition>
 			<from>2</from>
